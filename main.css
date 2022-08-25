@@ -21,9 +21,16 @@ a {
      list-style: none;
  }
 
-.main{
-
-}
+ .head{
+    border: 1px red solid;
+    background-color: #df4601;
+    
+ }
+    p{
+        text-align: center;
+        font-size: 26px;
+        padding: 1%;
+    }
 
 .box1{
     margin-top: 8%;
@@ -33,3 +40,18 @@ a {
     border-radius: 10px;
     border: 2px black solid;
 }
+
+.box2{
+    float:right;
+    padding: 10px;
+    border: 2px black solid;
+    background-color: black;
+    width: 200px;
+    height: 1569px;
+    
+}
+    .box2 p{
+        font-size: 16px;
+        text-align: left;
+        color:white;
+    }
